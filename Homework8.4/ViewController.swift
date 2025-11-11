@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         circle.frame = CGRect(x: 150, y: 300, width: 50, height: 50)
-        circle.backgroundColor = .systemGreen
+        circle.backgroundColor = .systemPurple
         circle.layer.cornerRadius = circle.frame.height / 2
         
         view.addSubview(circle)
